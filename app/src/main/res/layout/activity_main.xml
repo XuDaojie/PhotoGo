@@ -11,5 +11,8 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="io.github.xudaojie.photogo.MainActivity">
 
-    <include layout="@layout/test_item"/>
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
 </RelativeLayout>
